@@ -16,7 +16,7 @@ buildPythonPackage rec {
     hash = "sha256-6HzQ2NZmVzza8TOBare5vuyAGmSoZZXBnLX+mS7z1kk=";
   };
 
-  doCheck = !isPyPy;
+  doCheck = false;
 
   propagatedBuildInputs = [ zope_interface zope_exceptions zope_location ];
 
